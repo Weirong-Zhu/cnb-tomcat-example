@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sony.sie.engine.examples</groupId>
+  <artifactId>cnb-tomcat-example-parent</artifactId>
+  <version>1.1.0-20231107222121</version>
+  <packaging>pom</packaging>
+  <name>cnb-tomcat-example: parent</name>
+  <url>http://maven.apache.org</url>
+  <organization>
+        <name>Engine Examples</name>
+        <url>https://www.examples.com</url>
+  </organization>
+
+  <properties>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+  </properties>
+
+  <modules>
+    <module>tomcat-api</module>
+    <module>tomcat-ui</module>
+  </modules>
+  
+
+</project>
